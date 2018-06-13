@@ -246,7 +246,6 @@ import {IWorkPackageEditingServiceToken} from "core-components/wp-edit-form/work
     WorkPackageRelationsService,
     UrlParamsHelperService,
     WorkPackageCacheService,
-    WorkPackageEditingService,
     SchemaCacheService,
     ProjectCacheService,
     UserCacheService,
@@ -278,7 +277,6 @@ import {IWorkPackageEditingServiceToken} from "core-components/wp-edit-form/work
     WorkPackageTableSelection,
 
     WorkPackageCreateService,
-    WorkPackageEditingService,
     // Provide both serves with tokens to avoid tight dependency cycles
     { provide: IWorkPackageCreateServiceToken, useClass: WorkPackageCreateService },
     { provide: IWorkPackageEditingServiceToken, useClass: WorkPackageEditingService },
