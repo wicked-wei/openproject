@@ -297,7 +297,7 @@ zh:
         spent_on: 日期
         type: 类型
       type:
-        is_in_roadmap: 在Roadmap
+        is_in_roadmap: 在版本蓝图中
         in_aggregation: 在聚合中
         is_milestone: 是里程碑
         color: 颜色
@@ -889,7 +889,7 @@ zh:
   error_invalid_query_column: 无效的查询列：%{value}
   error_invalid_sort_criterion: 无法按照列 %{value} 排序
   error_pdf_export_too_many_columns: 选择 PDF 导出的列太多。请减少列数。
-  error_pdf_failed_to_export: 'The PDF export could not be saved: %{error}'
+  error_pdf_failed_to_export: 无法保存被导出的 PDF 文件：%{error}
   error_token_authenticity: 无法验证跨站域请求伪造令牌。
   error_work_package_done_ratios_not_updated: 工作包完成比率不更新。
   error_work_package_not_found_in_project: 工作包找不到或不属于此项目
@@ -930,8 +930,8 @@ zh:
       csv: CSV
       pdf: PDF
       pdf_with_descriptions: 带描述的PDF
-      pdf_with_descriptions_and_attachments: PDF with descriptions and attachments
-      pdf_with_attachments: PDF with attachments
+      pdf_with_descriptions_and_attachments: 带有描述和附件的 PDF 文件
+      pdf_with_attachments: 带有附件的 PDF 文件
   general_csv_decimal_separator: "."
   general_csv_encoding: UTF-8
   general_csv_separator: ","
@@ -946,8 +946,8 @@ zh:
   gui_validation_error_plural: "%{count} 错误"
   homescreen:
     additional:
-      projects: 这个实例中的最新可见项目。
-      users: 这个实例中的最新注册用户。
+      projects: 这个 OpenProject 中的最新可见项目。
+      users: 这个 OpenProject 中的最新注册用户。
     blocks:
       community: OpenProject 社区
       upsale:
@@ -1108,7 +1108,7 @@ zh:
   label_deleted_custom_field: "（删除自定义字段）"
   label_descending: 降序
   label_details: 详细信息
-  label_development_roadmap: 开发路线图
+  label_development_roadmap: 发展蓝图
   label_diff: 比较
   label_diff_inline: 内联
   label_diff_side_by_side: 并排
@@ -1276,7 +1276,7 @@ zh:
   label_overall_spent_time: 花的总时间
   label_overview: 概述
   label_part_of: 一部分
-  label_password_lost: 丢失的密码
+  label_password_lost: 忘记密码了吗？
   label_password_rule_lowercase: 小写
   label_password_rule_numeric: 数字字符
   label_password_rule_special: 特殊字符
@@ -1351,8 +1351,8 @@ zh:
   label_revision: 修订
   label_revision_id: 修订版本 %{value}
   label_revision_plural: 修订
-  label_roadmap: 路线图
-  label_roadmap_edit: 编辑路线图 %{name}
+  label_roadmap: 版本蓝图
+  label_roadmap_edit: 编辑版本蓝图 %{name}
   label_roadmap_due_in: "%{value} 到期"
   label_roadmap_no_work_packages: 没有此版本的工作包
   label_roadmap_overdue: "%{value} 超时"
@@ -1550,13 +1550,13 @@ zh:
   mail_body_account_activation_request: 一个新的用户 (%{value}) 注册。该帐户正在等待您的批准：
   mail_body_account_information: 您的帐户信息
   mail_body_account_information_external: 你可以使用 %{value} 帐号登录。
-  mail_body_lost_password: 若要更改您的密码，请单击下面的链接：
+  mail_body_lost_password: 若要更改你的密码，请单击下面的链接：
   mail_body_register: 若要激活您的帐户，请单击下面的链接：
   mail_body_reminder: "%{count} 个分配给您的工作包将在 %{days} 天后到期："
   mail_body_wiki_content_added: "'%{id}' wiki页面已经由%{author} 添加。"
   mail_body_wiki_content_updated: "'%{id}' wiki页面已经由%{author} 更新。"
   mail_subject_account_activation_request: "%{value} 帐户激活请求"
-  mail_subject_lost_password: 您的 %{value} 密码
+  mail_subject_lost_password: 你的 %{value} 密码
   mail_subject_register: 您的%{value}帐户激活
   mail_subject_reminder: "%{count} 个工作包在 %{days} 天内到期"
   mail_subject_wiki_content_added: "'%{id}' wiki页面已添加"
@@ -1580,7 +1580,7 @@ zh:
   notice_account_invalid_token: 无效的激活标记
   notice_account_invalid_credentials: 无效的用户名或密码
   notice_account_invalid_credentials_or_blocked: 无效的用户或密码或帐户由于多个失败的登录尝试被阻止。如果是这样，它将自动在短时间内解除。
-  notice_account_lost_email_sent: 一个说明选择新密码的电子邮件已经发送给你。
+  notice_account_lost_email_sent: 一个用来重置密码的电子邮件已经发送给你。
   notice_account_new_password_forced: 需要新的密码。
   notice_account_password_expired: 您的密码将在 %{days} 天后过期。请设置新的密码。
   notice_account_password_updated: 成功更新密码。
