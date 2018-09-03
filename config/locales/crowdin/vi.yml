@@ -235,10 +235,10 @@ vi:
           thành một người sử dụng của ứng dụng này một lần nữa, bạn có thể làm như
           vậy bằng cách sử dụng các phương tiện ứng dụng này cho phép.
       login_verification:
-        other: Enter the login %{name} to verify the deletion. Once submitted, you
-          will be ask to confirm your password.
-        self: Enter your login %{name} to verify the deletion. Once submitted, you
-          will be ask to confirm your password.
+        other: Nhập đăng nhập %{name} để xác nhận việc xóa. Sau khi gửi, bạn sẽ được
+          yêu cầu xác nhận mật khẩu của bạn.
+        self: Nhập đăng nhập %{name} để xác nhận việc xóa. Sau khi gửi, bạn sẽ được
+          yêu cầu xác nhận mật khẩu của bạn.
     error_inactive_activation_by_mail: 'Tài khoản của bạn đã không được nêu ra được
       kích hoạt. Để kích hoạt tài khoản của bạn, nhấp vào liên kết được gửi đến bạn.
 
@@ -302,7 +302,7 @@ vi:
         expires_at: Expires at
         subscriber: Subscriber
         encoded_token: Enterprise support token
-        active_user_count_restriction: Maximum active users
+        active_user_count_restriction: Số người dùng hoạt động tối đa
       relation:
         delay: Trì hoãn
         from: Work Package
@@ -1329,7 +1329,7 @@ vi:
   label_more: Xem thêm
   label_more_than_ago: nhiều hơn mấy ngày trước
   label_move_work_package: Di chuyển work package
-  label_my_account: Tài khoảng của tôi
+  label_my_account: Tài khoản của tôi
   label_my_account_data: Dữ liệu tài khoản của tôi
   label_my_page: Trang của tôi
   label_my_page_block: Block trang của tôi
