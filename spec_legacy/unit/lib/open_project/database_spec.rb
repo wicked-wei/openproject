@@ -26,31 +26,20 @@
 #
 # See docs/COPYRIGHT.rdoc for more details.
 #++
-require 'spec_helper'
+require 'legacy_spec_helper'
 
 describe OpenProject::Database do
   it 'should return the correct identifier' do
     allow(OpenProject::Database).to receive(:adapter_name).and_return 'PostgresQL'
 
-    expect(OpenProject::Database.name).to equal(:postgresql)
-  end
-
-  it 'should be able to parse semantic versions' do
-    version = OpenProject::Database.semantic_version '5.7.0'
-    version2 = OpenProject::Database.semantic_version '5.5.60-0+deb8u1'
-
-    expect(version2.major).to eq 5
-    expect(version2 < version).to be_truthy
-
-    version3 = OpenProject::Database.semantic_version '10.1.26-MariaDB-0+deb9u1'
-    expect(version3.major).to eq 10
+    assert_equal :postgresql, OpenProject::Database.name
   end
 
   it 'should be able to use the helper methods' do
     allow(OpenProject::Database).to receive(:adapter_name).and_return 'PostgresQL'
 
-    expect(OpenProject::Database.mysql?).to equal(false)
-    expect(OpenProject::Database.postgresql?).to equal(true)
+    assert_equal false, OpenProject::Database.mysql?
+    assert_equal true, OpenProject::Database.postgresql?
   end
 
   it 'should return a version string for PostgreSQL' do
@@ -58,15 +47,15 @@ describe OpenProject::Database do
     raw_version = 'PostgreSQL 8.3.11 on x86_64-pc-linux-gnu, compiled by GCC gcc-4.3.real (Debian 4.3.2-1.1) 4.3.2'
     allow(ActiveRecord::Base.connection).to receive(:select_value).and_return raw_version
 
-    expect(OpenProject::Database.version).to eq('8.3.11')
-    expect(OpenProject::Database.version(true)).to eq(raw_version)
+    assert_equal '8.3.11', OpenProject::Database.version
+    assert_equal raw_version, OpenProject::Database.version(true)
   end
 
   it 'should return a version string for MySQL' do
     allow(OpenProject::Database).to receive(:adapter_name).and_return 'MySQL'
     allow(ActiveRecord::Base.connection).to receive(:select_value).and_return '5.1.2'
 
-    expect(OpenProject::Database.version).to eq('5.1.2')
-    expect(OpenProject::Database.version(true)).to eq('5.1.2')
+    assert_equal '5.1.2', OpenProject::Database.version
+    assert_equal '5.1.2', OpenProject::Database.version(true)
   end
 end
