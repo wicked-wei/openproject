@@ -12,7 +12,7 @@ SecureHeaders::Configuration.default do |config|
   config.referrer_policy = "origin-when-cross-origin"
 
   # Valid for assets
-  assets_src = ["'self'"]
+  assets_src = %w['self' https://tagmanager.google.com/ https://www.googletagmanager.com/]
   asset_host = OpenProject::Configuration.rails_asset_host
   assets_src << asset_host if asset_host.present?
 
