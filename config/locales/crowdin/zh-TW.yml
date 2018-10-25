@@ -511,6 +511,8 @@ zh-TW:
               group_without_name: 不允許未命名的群組。
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: '必須包含以下的字元 (至少 %{all_count} 個中的 %{min_count} 個): %{rules}'
               lowercase: 小寫（例如：「a」）

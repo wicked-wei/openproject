@@ -505,6 +505,8 @@ zh:
               group_without_name: 不允许未命名的群组。
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: '必须包含以下类字符 (至少 %{min_count} %{all_count}): %{rules}。'
               lowercase: 小写字母 （如 'a')

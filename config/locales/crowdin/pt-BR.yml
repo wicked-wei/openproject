@@ -567,6 +567,8 @@ pt-BR:
               group_without_name: Grupos sem nome não são permitidos.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Deve conter caracteres das seguintes classes (pelo menos %{min_count}
                 de %{all_count}): %{rules}.'

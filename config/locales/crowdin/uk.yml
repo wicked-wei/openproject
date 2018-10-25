@@ -568,6 +568,8 @@ uk:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Must contain characters of the following classes (at least %{min_count}
                 of %{all_count}): %{rules}.'

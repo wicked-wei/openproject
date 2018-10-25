@@ -578,6 +578,8 @@ nl:
               group_without_name: Groepen zonder namen zijn niet toegestaan.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: Moet karakters bevatten van de volgende klassen (ten minste %{min_count}
                 van %{all_count}):%{rules}.

@@ -568,6 +568,8 @@ sv-SE:
               group_without_name: Namnlösa grupper tillåts inte.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Måste innehålla följande teckentyper (minst %{min_count} av %{all_count}):
                 %{rules}.'

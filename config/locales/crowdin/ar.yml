@@ -563,6 +563,8 @@ ar:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'يجب أن تحتوي على أحرف الفئات التالية (على الأقل %{min_count}
                 %{all_count}): %{rules}.'

@@ -301,7 +301,7 @@ pt:
       work_package_belongs_to: Este pacote de trabalho pertence ao projeto %{projectname}.
       click_to_switch_context: Abra este pacote de trabalho nesse projeto.
       autocompleter:
-        label: Autocompletar Projeto
+        label: Conclusão automática do Projecto
     text_are_you_sure: Tem a certeza?
     types:
       attribute_groups:
@@ -647,7 +647,7 @@ pt:
         highlighting_mode:
           description: Destaque com cor
           none: Sem destaque
-          inline: Overdue dates, "Status", "Type", and "Priority" attribute
+          inline: Datas em atraso, atributo "Estado", "Tipo" e "Prioridade"
           entire_row_by: Toda a linha por
           status: Situação
           priority: Prioridade

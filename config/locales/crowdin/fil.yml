@@ -592,6 +592,8 @@ fil:
               group_without_name: Wala pangalan ng grupo ay hindi pinapayagan.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Dapat naglalaman ng mga karakter sa mga sumusunod na klase (kahit
                 na %{min_count} sa %{all_count}): %{rules}.'

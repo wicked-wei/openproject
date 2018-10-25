@@ -569,6 +569,8 @@ ru:
               group_without_name: Не именованные группы не допускаются.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Должны содержаться символы следующих классов (как минимум %{min_count}
                 из %{all_count}): %{rules}.'

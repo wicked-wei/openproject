@@ -505,6 +505,8 @@ lol:
               group_without_name: crwdns96670:0crwdne96670:0
         user:
           attributes:
+            base:
+              user_limit_reached: crwdns102568:0crwdne102568:0
             password:
               weak: crwdns96673:0%{min_count}crwdnd96673:0%{all_count}crwdnd96673:0%{rules}crwdne96673:0
               lowercase: crwdns96674:0crwdne96674:0

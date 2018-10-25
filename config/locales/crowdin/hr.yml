@@ -569,6 +569,8 @@ hr:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Mora sadržavati znakove sljedećih klasa (najamanje %{min_count}
                 od %{all_count}: %{rules}).'

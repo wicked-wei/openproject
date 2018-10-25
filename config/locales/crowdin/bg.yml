@@ -568,6 +568,8 @@ bg:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Трябва да съдържа знаци от следните класове (най-малко %{min_count}
                 на %{all_count}): %{rules}.'

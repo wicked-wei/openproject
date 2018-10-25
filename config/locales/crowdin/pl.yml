@@ -569,6 +569,8 @@ pl:
               group_without_name: Grupy nienazwane nie są dozwolone.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Musi zawierać znaki z następujących klas (co najmniej %{min_count}
                 z %{all_count}): %{rules}.'

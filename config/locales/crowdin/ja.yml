@@ -507,6 +507,8 @@ ja:
               group_without_name: 名前のないグループは指定できません。
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 次の文字の種類が含まれるようにしてください (%{all_count} つのうちに %{min_count} つ以上)：%{rules}。
               lowercase: 'アルファベット小文字 (例: ''a'')'

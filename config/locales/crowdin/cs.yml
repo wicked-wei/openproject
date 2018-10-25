@@ -570,6 +570,8 @@ cs:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Musí obsahovat znaky z následujících tříd (alespoň %{min_count}
                 z %{all_count}): %{rules}.'

@@ -564,6 +564,8 @@ da:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Skal indeholde tegn fra følgende klasser (minimum %{min_count}
                 af %{all_count}): %{rules}.'

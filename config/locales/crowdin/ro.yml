@@ -575,6 +575,8 @@ ro:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Trebuie să conțină caractere din următoarele clase (cel puțin
                 %{min_count} din %{all_count}): %{rules}.'

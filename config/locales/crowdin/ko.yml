@@ -525,6 +525,8 @@ ko:
               group_without_name: 명명되지 않은 그룹은 허용되지 않습니다.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: '다음과 같은 문자를 포함 해야 합니다 (최소 %{all_count} 중 %{min_count}): %{rules}.'
               lowercase: '소문자(예: ''a'')'

@@ -562,6 +562,8 @@ lv:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Jāsatur rakstzīmes no šādām klasēm (vismaz %{min_count} no %{all_count}):
                 %{rules}.'

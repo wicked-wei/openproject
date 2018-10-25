@@ -575,6 +575,8 @@ ca:
               group_without_name: Unnamed groups are not allowed.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Ha de contenir caràcters de les següents classes (com a mínim
                 %{min_count} de %{all_count}): %{rules}.'

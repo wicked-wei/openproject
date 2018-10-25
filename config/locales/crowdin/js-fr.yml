@@ -663,7 +663,7 @@ fr:
         highlighting_mode:
           description: Surligner avec de la couleur
           none: Pas de surlignement
-          inline: Overdue dates, "Status", "Type", and "Priority" attribute
+          inline: Dates en retard, attribut "Statut", "Type" et "Priorité"
           entire_row_by: Ligne entière par
           status: Statut
           priority: Priorité

@@ -566,6 +566,8 @@ tr:
               group_without_name: Adsız gruplara izin verilmez.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Aşağıdaki sınıfların karakterlerini içermelidir (en az% {min_count}
                 /% {all_count}):% {rules}. %{min_count} %{all_count} %{rules} '

@@ -565,6 +565,8 @@ lt:
               group_without_name: Bevardės grupės nėra leidžiamos.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Turi turėti simbolius iš šitų klasių (mažiausiai %{min_count}
                 iš %{all_count}): %{rules}.'

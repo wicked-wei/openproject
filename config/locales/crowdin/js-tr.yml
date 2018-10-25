@@ -60,7 +60,7 @@ tr:
     description_subwork_package: "#%{id} nolu iş paketinin alt parçası"
     editor:
       preview: Önizleme modunu aç/kapat
-      source_code: İşaretleme kaynak modunu değiştir
+      source_code: Markdown kaynak modunu değiştir
       error_saving_failed: 'Aşağıdaki nedenden dolayı belge kayıt edilemedi: %{error}'
       mode:
         manual: Markdown kaynağına geç

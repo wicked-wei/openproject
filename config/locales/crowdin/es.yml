@@ -591,6 +591,8 @@ es:
               group_without_name: No se permiten grupos sin nombre.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: Debe contener caracteres de las siguientes tipos (como mínimo
                 %{min_count} de %{all_count}):%{rules}.

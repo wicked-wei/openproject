@@ -565,6 +565,8 @@ hu:
               group_without_name: Névtelen csoport nem engedélyezett.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'Az alábbi karakter típusokból tartalmaznia kell karaktert (legalább
                 %{min_count} a %{all_count} típusból): %{rules}.'

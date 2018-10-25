@@ -566,6 +566,8 @@ fi:
               group_without_name: Nimeämätön ryhmät eivät ole sallittuja.
         user:
           attributes:
+            base:
+              user_limit_reached: User limit reached.
             password:
               weak: 'On sisällettävä merkkejä seuraavista luokista (ainakin %{min_count}
                 %{all_count}): %{rules}.'
