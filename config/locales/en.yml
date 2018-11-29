@@ -2643,6 +2643,7 @@ en:
         register_intro: "If you are developing an OAuth API client application for OpenProject, you can register it using this form for all users to use."
         default_scopes: ""
     client_id: "Client ID"
+    client_secret_notice: "This is the only time we can print the client secret, please note it down. It cannot be retrieved it at a later time."
     authorization_dialog:
       authorize: "Authorize"
       cancel: "Cancel and deny authorization."

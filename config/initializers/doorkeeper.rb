@@ -56,6 +56,10 @@ Doorkeeper.configure do
   #
   base_controller 'ApplicationController'
 
+  hash_token_secrets
+  hash_application_secrets
+  fallback_to_plain_secrets
+
   # Reuse access token for the same resource owner within an application (disabled by default).
   #
   # This option protects your application from creating new tokens before old valid one becomes
